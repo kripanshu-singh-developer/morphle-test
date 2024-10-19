@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/htop')
 def htop():
     # Name and Username
-    full_name = "Krpanshu Singh"  # Replace with your full name
+    full_name = "Kripanshu Singh"  # Replace with your full name
     system_username = os.getenv("USER") or os.getenv("USERNAME")
 
 
